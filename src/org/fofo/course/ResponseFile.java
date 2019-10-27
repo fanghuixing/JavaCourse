@@ -1,15 +1,8 @@
 package org.fofo.course;
 
-import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
 
 public class ResponseFile implements Runnable {
     private String path;

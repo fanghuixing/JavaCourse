@@ -29,7 +29,10 @@ public class Worker {
         this.httpExchange = httpExchange;
     }
 
-
+    /**
+     * 返回文件到客户端
+     * @throws IOException
+     */
     public void process() throws IOException {
         Headers responseHeaders = httpExchange.getResponseHeaders();
         responseHeaders.set("Content-Type", contentType);
