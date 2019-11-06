@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaCourse:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaCourse_jar</output-path>
+    <root id="archive" name="JavaCourse.jar">
+      <element id="module-output" name="JavaCourse" />
+    </root>
+  </artifact>
+</component>
